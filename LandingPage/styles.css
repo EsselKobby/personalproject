@@ -42,22 +42,83 @@
 }
 
 .mainpage-container{
-    width:100%;
-    padding: 16px;
-    background: plum;
-    border: 4px solid indigo;
     display: flex;
+    justify-content: center;
 }
 
 .mainpage{
-    width: 100%;
-    border: 4px solid darkslategray;
-    /*background: skyblue; For debugging*/
-    flex:1;
+    width: 250px;
+    height: 200px;
+    margin: 10px;
+    /* border: 3px solid #333;background: ash; For debugging*/
+    box-sizing: border-box;
+   justify-content: center;
+ 
 }
+
 .foto1{
-    width:2rem;
+  width:200px;
 }
 .foto2{
-    width:1em;
+  width: 200px;
+}
+.foto3{
+  width: 180px;
+}
+.foto4{
+  width:  100px;
+ 
+}
+.webdesign{
+  min-height: 1px;
+  padding: 10px;
+}
+.data-analysis{
+  min-height: 100px;
+  padding: 10px;
+}
+.graphicdesign{
+  min-height: 200px;
+  padding: 10px;
+}
+.photography{
+  min-height: 200px;
+}
+.inspirationcontainer{
+  color:#1F2937;
+  font-size: 36px;
+  background-color: #E5E7EB;
+  padding: 100px 0;
+  display: flex;
+  justify-content:center;
+}
+.Inspiration{
+  justify-content: center;
+}
+cite{
+  font-style: #1F2937;
+  text-align: right;
+}
+.noticecontainer{
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+}
+.noticemessage{
+  color:#ffffff;
+    background-color: #3882F6;
+   padding: 20px 0;
+    display: center;
+    justify-content: center;
+}
+.button1{
+  display: flex;
+  justify-content: right;
+}
+footer{
+    color:#ffffff;
+    background-color: #1F2937;
+    padding: 20px 0;
+    display: flex;
+    justify-content:center;
 }
